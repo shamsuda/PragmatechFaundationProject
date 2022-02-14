@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+.news {
+border: 1px solid red;
+padding: 20px 0px;
+
+}
+
+.news-container {
+border: 1px solid green;
+width: 1200px;
+margin: 0px auto;
+}
+
+
+.news-item {
+border: 1px solid black;
+
+
+}
