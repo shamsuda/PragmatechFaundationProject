@@ -14,14 +14,15 @@ border: 5px solid green;
 width: 1200px;
 margin: 0px auto;
 display: flex;
-justify-content: center;
+justify-content:space-between;
+flex-direction: row;
 }
 
 .news-item {
 border: 1px solid black;
 display: inline-block;
 width: 385px;
-height: 150px;
+/* height: 150px; */
 background: blue;
 color: white;
 /* margin: 0px 20px; */
@@ -30,6 +31,6 @@ box-sizing: border-box;
 }
 
 img {
+    width:100%;
 
-width:100%;
 }
