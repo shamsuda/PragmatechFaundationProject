@@ -1,0 +1,23 @@
+.body{
+    margin: 0px;
+}
+
+.main{}
+
+.container{
+width: 1200px;
+margin: 0px auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.featured-news-item,
+.news-item{
+    border: 1px solid red;
+
+}
+
+.featured-news-item{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
