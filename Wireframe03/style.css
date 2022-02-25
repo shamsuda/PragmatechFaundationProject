@@ -1,12 +1,19 @@
 .body{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+h2{
+margin: 0px;
+font-weight:normal ;
+
 }
 
 .main{}
 
 .container{
-width: 1200px;
-margin: 0px auto;
+width: 925px;
+margin: 50px auto;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 15px;
@@ -14,17 +21,39 @@ gap: 15px;
 
 .featured-news-item,
 .news-item{
-    border: 1px solid red;
+    border: 1px solid lightgrey;
 }
 
 .featured-news-item{
     grid-column-start: 1;
     grid-column-end: 3;
-    height: 400px;
+    height: 460px;
+    position: relative;
 }
 .news-item{
-    min-height: 300px;
+    min-height: 430px;
+    position:relative;
 }
+.featured-news-item-heading{
+position: absolute;
+bottom: 20px;
+color: white;
+}
+.featured-news-item-heading h2{
+background:rgba(0, 0, 0, 8) ;
+padding: 15px;
+margin: 0px;
+}
+.featured-news-item-heading h3{
+    background:rgba(24, 148, 160, 0.8) ;
+    padding: 15px;
+    display: inline-block;
+    margin: 0px;
+}
+.news-item :hover{
+box-shadow: 0px 0px 10px lightgrey;
+}
+
 .new-item img{
 width: 100%;
 }
@@ -32,15 +61,69 @@ width: 100%;
 .new-item h2{
     margin: 0px;
     padding: 15px;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #13317f;
 }
 
 .news-item-stats{
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-top: 1px solid grey;
+    position:absolute;
+    bottom: 0px;
+
 }
+
 .news-item-stats span{
     background: #f7f7f7;
     border-right: 1px solid lightgrey;
     padding: 15px 0px;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+.news-item-stats span :hover{
+    background: green;
+    color:white ;
+}
+
+.news-item-stats span i{
+margin-right: 10px;
+}
+
+.new-item-date{
+    background:#1894a0;
+    display:inline-block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+}
+.news-item-date h2{
+margin: 0px;
+padding: 0px;
+font-size: 15px;
+text-align: center;
+padding: 15px 10px;
+color: white;
+background: rgba(24, 148, 160, 0.8);
+}
+
+.news-item-date h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background: #334565;
+}
+
+.featured-news-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
