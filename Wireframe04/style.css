@@ -1,6 +1,11 @@
 body {
 }
 
+.container {
+    width: 1200;
+    margin: 0px auto;
+}
+
 #top-info {
 background: #333982;
 color: white;
@@ -39,8 +44,14 @@ justify-content: space-between;
     justify-content:flex-start;
     align-items: center;
 }
-
 .top-info-content span{
-border-right: 1px white;
+    cursor: pointer;
+    transition: all 4s linear;
+}
+.top-info-content span i{
+margin-right: 10px;
+} 
 
+.top-info-content span :hover{
+color: green;
 }
