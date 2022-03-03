@@ -1,0 +1,46 @@
+body {
+}
+
+#top-info {
+background: #333982;
+color: white;
+}
+
+.container {
+    width: 12200;
+    margin: 0px auto;
+    border: 1px solid green;
+}
+
+.top-info-action a {
+padding: 15px 30px;
+display: inline-block;
+color: white;
+background: #00ac1f;
+}
+
+.top-info {
+display: flex;
+justify-content: space-between;
+}
+
+.top-info-action a {
+    padding: 17.5px 35px;
+    display: inline-block;
+    color: white;
+    background:#00ac1f;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.top-info-content{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.top-info-content span{
+border-right: 1px white;
+
+}
