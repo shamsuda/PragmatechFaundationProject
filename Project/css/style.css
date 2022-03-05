@@ -1,0 +1,55 @@
+body{
+margin: 0px;
+}
+
+.Teachers{
+border: 1px solid grey;
+}
+
+.teachers-container{
+border: 1px solid grey;
+width: 1200px;
+margin: 70px auto;
+}
+.teachers-header{
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.teachers-item{
+width: 200px;
+height: 300px;
+border: 0.1px solid grey;
+border-radius: 8px;
+}
+
+.teachers-list{
+display: flex;
+justify-content: space-between;
+}
+.teachers-button{
+ background-color: white;
+ border: radius 10px; ;
+display: flex;
+justify-content: center;
+margin: 40px 0px;
+position: relative;
+}
+
+
+.teachers-button button{
+    background-color:#6255A4;
+    color:#fff;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.teachers-item{
+ text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.teachers-item img{
+    width: 100%;
+}
