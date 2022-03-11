@@ -46,7 +46,6 @@ body {
 .teachers-item {
     width: 23%;
     /* height: 300px; */
-    border: 1px solid lightgray;
     border-radius: 8px;
     position: relative;
     
@@ -99,16 +98,28 @@ body {
     position: absolute;
     text-align: center;
     border-radius: 5px
-    position: absolute;
-    top: 340px;
+    position absolute;
+    top: 352px;
     left: 0px;
     right: 0px;
 }
 
 .teachers-item-stat div{
 color:#6255A4 ;
+font-weight: bold;
 }
 
 .teachers-item-stat2 span{
     color: green;
-}}
+    font-weight: bold;
+}
+
+.teachers-item button{
+    background: #6255A4;
+    color: #fff;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
