@@ -1,4 +1,15 @@
-# a b-dən kiçikdirsə ekrana "Daxil edilən dəyərlər tələblərə uyğun deyil" çap edin
-a =  int(input("ededi qeyd edin:"))
-if a < 20 :
-    print("Daxil edilən dəyərlər tələblərə uyğun deyil") 
+# Daxil edilən ədədin rəqəmlerinin cemini tap
+a=1
+def Artir():
+    a==3
+    a+=1
+    print(a)
+    Artir()
+    
+# Daxil edilən ədədin rəqəmlerini ayrı ayrı çap edin
+def Artir():
+    global a
+    print(a)
+    if a<100:
+        a+=1
+        Artir()
