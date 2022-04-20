@@ -1,0 +1,1 @@
+print("Burada iterable ardıcıllıq (sətir, siyahı və kortej) və ya kolleksiya (çoxluq və lüğət) tiplərində ola bilər. Funksiyada iterable parametrinin istifadəsi zəruri deyil, boş buraxıldığı təqdirdə funksiya boş siyahı qaytarır.")
