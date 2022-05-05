@@ -58,8 +58,5 @@ print("Abzas kod xəttinin əvvəlindəki boşluqlara aiddir.Digər proqramlaşd
 print("Built-in və custom funksiya ifadələri nə deməkdir?")
 print("Bunlar dünyanın bir yerində bəzi proqramçıların uzun müddət əvvəl yaratdığı funksiyalardır və indi bu funksiyaları yenidən yazmaq məcburiyyətində qalmadan proqramınızda istədiyiniz vaxt istifadə edə bilərsiniz.Misal olaraq print() funksiyasını göstərə bilərik, hansı ki, hər hansı bir görülən işi ekrana çap edir.")
 
-print("")
-print("")
-
-print("")
-print("")
+print("Virtual Environment nədir? Nə üçün istifadə olunur?")
+print("Her hansi bir wep saytin asanliqla berpa olunmasini temin edir.")
